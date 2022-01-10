@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment1color"
+    tools:context=".Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/fragment1"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dataFrom2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/white"
+        android:textSize="26dp" />
+
+    <EditText
+        android:id="@+id/fragment1Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="Data To Fragment 2"
+        android:inputType="textPersonName"
+        android:minWidth="48dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/sendData1btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment1Data"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Send data to fragment 2" />
+
+
+</RelativeLayout>
